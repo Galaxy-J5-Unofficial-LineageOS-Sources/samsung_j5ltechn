@@ -26,10 +26,6 @@ $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 GAPPS_VARIANT := pico
 GAPPS_PRODUCT_PACKAGES += GoogleDialer
 GAPPS_PRODUCT_PACKAGES += Wallpapers
-GAPPS_PRODUCT_PACKAGES += CalculatorGoogle 
-GAPPS_PRODUCT_PACKAGES += PrebuiltDeskClockGoogle
-GAPPS_PRODUCT_PACKAGES += Photos
-GAPPS_PRODUCT_PACKAGES += GoogleContacts 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Common overlay
