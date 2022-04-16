@@ -11,6 +11,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 #Inherit from vendor
 $(call inherit-product, vendor/samsung/j5ltechn/j5ltechn-vendor.mk)
 
+# Inherit J5 2015 device
+$(call inherit-product, device/samsung/msm8916-common/device.mk)
+
 # Inherit from common
 $(call inherit-product, device/samsung/j5-common/device-common.mk)
 
