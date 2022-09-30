@@ -21,3 +21,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	ro.telephony.ril.config=simactivation \
 	persist.radio.multisim.config=dsds \
 	rild.libpath2=/system/lib/libsec-ril-dsds.so
+	
+# Bluetooth
+PRODUCT_PROPERTY_OVERRIDES += \
+	bluetooth.device.default_name=Galaxy J5 (SM-J5008)
